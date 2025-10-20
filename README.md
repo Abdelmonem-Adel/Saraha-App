@@ -71,20 +71,22 @@ Saraha-App/
    cd Saraha-App
 
    
-Install dependencies :
-  npm install
+2. **Install dependencies :**
+   ```bash
+   npm install
 
 
 
-Create a .env file in the project root and add the following : 
+3. **Create a .env file in the project root and add the following :**
+   ```bash
+   PORT=5000
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
 
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
 
-
-Run the server :
-  npm run dev
+4. **Run the server :**
+   ```bash
+   npm run dev
 
 
 
@@ -120,8 +122,8 @@ You can explore and test all API endpoints directly using this Postman collectio
 🔗 [View Collection on Postman](https://assignment-3865.postman.co/workspace/Assignment-Workspace~a4ff418a-ffe2-484a-8986-c22a94223df8/collection/40681719-53596fe8-f6cf-49e7-ba80-7630e42c4b43?action=share&source=collection_link&creator=40681719)
 
 
-🧩 Example .env File : 
-
+**🧩 Example .env File :**
+  ```bash
   PORT=5000
   MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/saraha
   JWT_SECRET=mySuperSecretKey
