@@ -67,7 +67,7 @@ Saraha-App/
 
 1. **Clone the repository**
    ```bash
-git clone https://github.com/Abdelmonem-Adel/Saraha-App.git
+   git clone https://github.com/Abdelmonem-Adel/Saraha-App.git
    cd Saraha-App
 
    
