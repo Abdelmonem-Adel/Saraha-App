@@ -91,17 +91,18 @@ Run the server :
 
   🧍‍♂️ User Routes :
     
-       | Method     | Endpoint                                | Description                             |
-| ---------- | --------------------------------------- | --------------------------------------- |
-| **POST**   | `/api/users/add`                        | Register a new user                     |
-| **GET**    | `/api/users/signin`                     | Log in and get access token             |
-| **POST**   | `/api/users/logout`                     | Log out user                            |
-| **DELETE** | `/api/users/delete/:id`                 | Delete user by ID                       |
-| **PUT**    | `/api/users/update`                     | Update user data (requires AccessToken) |
-| **GET**    | `/api/users/list`                       | Get all users                           |
-| **PUT**    | `/api/users/confirm-otp`                | Confirm user OTP                        |
-| **POST**   | `/api/users/refresh-token`              | Get new access token via refresh token  |
-| **GET**    | `/api/users/list-user-messages/:userId` | Get all messages for a specific user    |
+| Method     | Endpoint                                | Description                                  |
+| ---------- | --------------------------------------- | -------------------------------------------- |
+| **POST**   | `/api/users/add`                        | Register a new user                          |
+| **GET**    | `/api/users/signin`                     | Log in and get an access token               |
+| **POST**   | `/api/users/logout`                     | Log out the user                             |
+| **DELETE** | `/api/users/delete/:id`                 | Delete a user by ID                          |
+| **PUT**    | `/api/users/update`                     | Update user data (requires AccessToken)      |
+| **GET**    | `/api/users/list`                       | Get all users                                |
+| **PUT**    | `/api/users/confirm-otp`                | Confirm user OTP                             |
+| **POST**   | `/api/users/refresh-token`              | Get a new access token using a refresh token |
+| **GET**    | `/api/users/list-user-messages/:userId` | Get all messages for a specific user         |
+
 
 
   💌 Message Routes : 
