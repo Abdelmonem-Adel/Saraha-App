@@ -41,8 +41,8 @@ It allows users to send and receive anonymous messages securely, manage accounts
 
 ---
 
-**## 📁 Project Structure**
-    ```bash
+```## 📁 Project Structure```
+
 Saraha-App/
 │
 ├── src/
@@ -58,7 +58,6 @@ Saraha-App/
 ├── .env
 ├── package.json
 └── README.md
-
 
 
 ---
