@@ -46,18 +46,19 @@ It allows users to send and receive anonymous messages securely, manage accounts
 Saraha-App/
 │
 ├── src/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ └── app.js
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   └── app.js
 │
 ├── config/
-│ └── db.connection.js
+│   └── db.connection.js
 │
 ├── .env
 ├── package.json
 └── README.md
+
 
 
 ---
@@ -66,7 +67,7 @@ Saraha-App/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Abdelmonem-Adel/Saraha-App.git
+git clone https://github.com/Abdelmonem-Adel/Saraha-App.git
    cd Saraha-App
 
    
@@ -107,10 +108,10 @@ Run the server :
 
   💌 Message Routes : 
 
-      | Method   | Endpoint                                | Description                       |
-| -------- | --------------------------------------- | --------------------------------- |
-| **POST** | `/api/messages/add-message/:receiverId` | Send an anonymous message to user |
-| **GET**  | `/api/messages/get`                     | Get received messages             |
+| Method   | Endpoint                                | Description                         |
+| -------- | --------------------------------------- | ----------------------------------- |
+| **POST** | `/api/messages/add-message/:receiverId` | Send an anonymous message to a user |
+| **GET**  | `/api/messages/get`                     | Retrieve received messages          |
 
 
 📮 Postman Collection
