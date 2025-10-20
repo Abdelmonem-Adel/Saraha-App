@@ -41,7 +41,8 @@ It allows users to send and receive anonymous messages securely, manage accounts
 
 ---
 
-## 📁 Project Structure
+**## 📁 Project Structure**
+   ```bash
 
 Saraha-App/
 │
